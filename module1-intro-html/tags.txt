@@ -1,0 +1,23 @@
+text-formatting tags: p, h1-h6, b, sup, sub, small, mark, code, del, u, q,
+                      blockquote, hr, br, i 
+
+form tags: form, label and input, button, textarea, select or datalist and  option,
+           progress
+
+interactive tags: button, details and summary, dialog, progress,
+            select or datalist and option, input type="number"or"range"or"date"or"radio"
+	    or"checkbox"
+special tags: iframe, embed, object, svg
+
+structure tag: !DOCTYPE html, html, head, body, nav, main, (header, section, footer)--> div
+
+link tag: link href,a href
+
+multimedia tag: img src= type=, video src= type=,audio src= type= and source
+
+list tag: ul or ol and li
+
+table tag: table and tr and th or td 
+
+last learned -> q,blockquote,hr,textarea,progress,dialog is related with js,a target=_blank|_top|_self|_parent|
+                input type="range",details and summary and p

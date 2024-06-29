@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .form 
+            {
+                border: solid;
+                margin: 10px 0 0 0;
+                width: 100%;
+                background-color: skyblue;
+                display: flex;
+                justify-content: center;
+            }
+
+            form
+            {
+                /* border: solid; */
+                width: 65%;
+                background-color: pink;
+            }
+            .form form .label
+            {
+                display: inline-block;
+                width: 15%;
+            }
+            .form form .input
+            {
+                display: inline-block;
+                width: 20%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>if you don't know about form tag in ditails <a href="form.html">click</a> here</p>
+        <div class="form">
+            <form action="script.js" method="get">
+                <label class="label" for="fname">First Name</label>
+                <input class="input" type="text" id="fname" placeholder="first name" required>&nbsp;&nbsp;
+                <label class="label" for="lname">Last Name</label>
+                <input class="input" type="text" id="lname" placeholder="last name" required><br><br>
+
+                
+                <label class="label" for="uname">User Name</label>
+                <input class="input" type="text" id="uname" placeholder="user name" required>&nbsp;&nbsp;
+                <label class="label" for="password">Password</label>
+                <input class="input" type="password" id="password" placeholder="password" required><br><br>
+                
+                <label class="label" for="email">Email</label>
+                <input class="input" id="email" type="email" placeholder="email" required>&nbsp;&nbsp;
+                <label class="label">Country</label>
+                <input class="input" type="text" list="country" placeholder="country" required>
+                <!-- <select name="" id=""></select> -->
+                <datalist id="country">
+                    <option value="Bangladesh"></option>
+                    <option value="Pakistan"></option>
+                    <option value="Turkiye"></option>
+                </datalist><br><br>
+            
+                <label for="textarea" class="label">Say Something</label>
+                <textarea id="textarea" class="input" placeholder="say" required></textarea><br><br><hr>
+
+                <label>Progress</label>
+                <progress value="70" max="100"></progress>
+                <br><br>
+
+                <label>Range</label>
+                <input type="range"><br><br>
+                <label>Gender: </label>
+                <label for="male">Male</label>
+                <input id="male" type="radio" name="sex" value="male">&nbsp;
+
+                <label for="female">Female</label>
+                <input id="female" type="radio" name="sex" value="female">&nbsp;
+                
+                <label for="other">Other</label>
+                <input id="other" type="radio" name="sex" value="other">
+                <div style="text-align: center;">
+                    <input type="submit">
+                    <input type="reset">  
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

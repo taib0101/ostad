@@ -1,0 +1,33 @@
+VS Code Extension For HTML
+
+* Live Server:
+-This extension provides a live preview of your web pages in real-time as you edit them.
+-It's especially useful for front-end development, allowing you to see changes instantly in the browser.
+
+
+* HTML End Tag Labels:
+-This extension adds labels to closing HTML tags. It's particularly helpful in large HTML files
+to quickly identify which closing tag corresponds to which opening tag, improving code readability.
+
+
+* Auto Close Tag:
+-Automatically adds HTML/XML close tags as soon as you type the opening tag.
+-It speeds up your HTML coding by reducing the amount of typing required.
+
+
+* Highlight Matching Tag:
+-Whenever you select an HTML tag, this extension highlights the matching opening or closing tag.
+-This feature is useful for quickly navigating and understanding the structure of your HTML code.
+
+
+* Auto Rename Tag:
+-When you rename one HTML/XML tag, this extension automatically renames the matching paired tag.
+-It's a great time-saver and helps prevent errors in tag renaming.
+
+
+* Code Spell Checker:
+-This extension helps to catch common spelling errors in your code.
+It supports multiple languages and programming languages,
+making it an essential tool for maintaining professional and error-free code.
+
+

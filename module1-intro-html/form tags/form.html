@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/png">
+        <style>
+            .label
+            {
+                width: 13%;
+                display: inline-block;
+                /* border: solid; */
+            }
+            .input
+            {
+                width: 25%;
+                display: inline-block;
+                /* border: solid; */
+            }
+            .label:nth-child(9),.label:nth-child(3)
+            {
+                margin-left: 50px;
+            }
+            .div
+            {
+                border: solid;
+                width: 80%;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>form is block-level tag</p>
+        <p>label,input,select tag is inline-level tag</p>
+        <form style="display: flex; justify-content: center;">
+            <div class="div">
+                <!-- for attribute is related with id attribute 
+                     if you click label input will hit 
+                -->
+                <label for="first_name" class="label">First Name</label> 
+                <input type="text" id="first_name" placeholder="first name" class="input" required>
+                <!-- <br> -->
+    
+                <label for="last_name" class="label">Last Name</label>
+                <input type="text" id="last_name" placeholder="last name" class="input" required>
+                    <!-- if we use form tag input type:text. automatically vanished string after getting input
+                         by clicking submit button.
+                         else we have to use dom like this after getting input text.value=""
+                    -->
+                    <!-- <button type="submit">submit</button> -->
+                <br><br>
+                    
+                <label for="nickname" class="label">Username</label> 
+                <input type="text" name="nickname" id="nickname" placeholder="user name" class="input" required>
+                <!-- <br> -->
+                <label for="password" class="label">password</label> 
+                <input type="password" name="password" id="password" placeholder="password" class="input" required>
+                <br>
+
+                <label>Gender: </label> &nbsp;&nbsp;
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male"> <!--required dont need in radio -->
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <!-- if we use name attribute , we can only one radio selector,radio use for yes or no -->
+                <br>
+                
+                <label>Quantity</label>
+                <input type="number" value="1" min="1" max="100">
+                <br>
+
+                <label>Date</label>
+                <input type="date">
+                <br>
+                <label for="country">Country</label>
+                <select id="country" >
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="China">China</option>
+                </select>
+                <br>
+                <label>Country Name</label>
+                <input type="text" list="country_name" placeholder="country">
+                <datalist id="country_name">
+                    <option value="Qatar">
+                    <option value="America">
+                    <option value="Brazil">
+                </datalist>
+                <br>
+
+                <label>Size:</label>
+                <label for="small">Small</label>
+                <input type="checkbox" id="small" value="small">
+                <label for="medium">Medium</label>
+                <input type="checkbox" id="medium" value="medium">
+                <label for="big">Big</label>
+                <input type="checkbox" id="big" value="big">
+                <br>
+
+                <input type="submit">
+                <input type="reset">
+                <br>
+                
+                <button type="button">click button</button>
+            </div>
+        </form>
+        <br>
+
+        <form action="script.js" method="get">
+                <!-- method="get" will show to url for rquesting to server -->
+                <!-- use get  , but don't use for password ,if you use , it will show to URL-->
+                <label for="first_name" class="label">First Name</label> 
+                <input type="text" id="first_name" placeholder="first name" class="input" required>
+                <label for="last_name" class="label">Last Name</label>
+                <input type="text" id="last_name" placeholder="last name" class="input" required>
+                <br>
+
+                <input type="submit">
+                <input type="reset">     
+        </form>
+        <br>
+        <!-- for password use method="post" -->
+        <form action="script.js" method="post">
+                <label for="nickname" class="label">Username</label> 
+                <input type="text" name="nickname" id="nickname" placeholder="user name" class="input" required>
+                <!-- <br> -->
+                <label for="password" class="label">password</label> 
+                <input type="password" name="password" id="password" placeholder="password" class="input" required>
+                <br>
+                <input type="submit">
+                <input type="reset">     
+        </form>
+    </body>
+</html>
