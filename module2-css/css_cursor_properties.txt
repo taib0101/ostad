@@ -1,0 +1,14 @@
+<button style="cursor: alias;">alias Value</button>
+<button style="cursor: auto;">auto Value</button>
+<button style="cursor: all-scroll;">all-scroll value</button>
+<button style="cursor: col-resize;">col-resize value</button>
+<button style="cursor: crosshair;">Crosshair</button>
+<button style="cursor: default;">Default value</button>
+<button style="cursor: copy;">copy value</button>
+<button style="cursor: move;">Pointer</button>
+<button style="cursor: e-resize;">Move</button>
+<button style="cursor: ew-resize;">e-resize</button>
+<button style="cursor: ne-resize;">ew-resize</button>
+<button style="cursor: ne-resize;">ne-resize</button>
+<button style="cursor: nw-resize;">nw-resize</button>
+

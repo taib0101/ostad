@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent1
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    background-color: pink;
+    justify-content: space-around;
+    /* display:inline-block; */
+    padding: 0 30%;
+    margin: 0 2%;
+    border: solid;
+}
+
+.parent1 p
+{
+    width: auto;
+    background-color: grey;
+}
+
+.child1
+{
+    background-color: blueviolet;
+    width: auto;
+    margin: 0 11.2%;
+}

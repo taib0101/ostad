@@ -4,6 +4,8 @@ VS Code Extension For HTML
 -This extension provides a live preview of your web pages in real-time as you edit them.
 -It's especially useful for front-end development, allowing you to see changes instantly in the browser.
 
+*Live Preview:
+-it opens vs browser for designing
 
 * HTML End Tag Labels:
 -This extension adds labels to closing HTML tags. It's particularly helpful in large HTML files
@@ -30,4 +32,10 @@ to quickly identify which closing tag corresponds to which opening tag, improvin
 It supports multiple languages and programming languages,
 making it an essential tool for maintaining professional and error-free code.
 
+
+*preitter:
+- vs code pluggin show the logo each files, after showing it doesn't work
+
+*quokka:
+- it shows the bug of javascript code in line
 

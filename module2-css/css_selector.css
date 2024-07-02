@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+.element-selector
+{
+    display: inline-block;
+    background-color: grey;
+}
+.class-selector
+{
+    display: inline-block;
+    background-color: goldenrod;
+}
+.id-selector
+{
+    display: inline-block;
+    background-color: pink;
+    position:relative;
+    top: -36px;
+}
+.group-selector
+{
+    display: inline-block;
+    background-color: greenyellow;
+}
+.universal-selector
+{
+    display: inline-block;
+    background-color: skyblue;
+}

@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 300vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.inline
+{
+    background-color: skyblue;
+    height: max-content;
+    width: 36.5%;
+}
+.inline p
+{
+    background-color: grey;
+    display: inline;
+}
+
+
+.block
+{
+    background-color: greenyellow;
+}
+.block label,.block input
+{
+    display: block;
+}
+
+
+.inline-block 
+{
+    background-color: blueviolet;
+    width: 50%;
+}
+.inline-block .label
+{
+    display: inline-block;
+    border: solid;
+    width: 25%;
+}
+.inline-block .inputt
+{
+    display: flex;
+    justify-content: center;
+}
+.inline-block .inputt button:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.inline-block input[type=submit]
+{
+    cursor: pointer;
+}
+
+.inline-block1
+{
+    background-color: grey;
+    height: max-content;
+}
+.inline-block1 .ichild1 
+{
+    width: 49.77%;
+    height: 3rem;
+    background-color: aqua;
+    display: inline-block;
+    margin: 0 0 0 0.009%;
+    text-align: center;
+}
+
+.parent
+{
+    background-color: rgb(0,0,0,0.6);
+    height: max-height;
+    /* overflow: scroll;
+    scrollbar-width: none; */
+}
+
+.flex
+{
+    background-color: pink;
+    width: 50%;
+}
+.flex .box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex .child1
+{
+    background-color: skyblue;
+    display: inline;
+}
+.flex .child2
+{
+    background-color: orange;
+    display: block;
+}
+.flex .child3
+{
+    background-color: tomato;
+    display: inline-block;
+}
+
+.grid
+{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+}
+.grid h3
+{
+    display: block;
+}
+.grid .card
+{
+    text-align: center;
+    background-color: grey;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.grid .card:hover
+{
+    transform: scaleY(1.5);
+    box-shadow: 2px 2px 0px 0px;
+}
+
+.table-cell
+{
+    background-color: forestgreen;
+}
+.table-cell .tchild1
+{
+    background-color: #fff;
+    width: 10%;
+    height: 4rem;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 766px)
+{
+    .inline
+    {
+        background-color: skyblue;
+        height: max-content;
+        width: 100%;
+    }
+    .inline-block .text
+    {
+        display: block;
+        width: 70%;
+        box-shadow: 2px 2px 2px 0;
+    }
+    .inline-block .label
+    {
+        display: block;
+        width: 90%;
+    }
+}

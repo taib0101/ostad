@@ -1,0 +1,503 @@
+/* justify-content */
+.grand_parent
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* justify-content,align-content works for parent 
+       to align there child div ,justify for horizontal-column
+       align-content for vertical-row
+    */
+}
+p
+{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+    /* justify-content,align-content works for parent 
+       to align there child div ,justify for horizontal-column
+       align-content for vertical-row
+    */
+}
+/* giving a class name is better practice  like 11 line*/
+/* don't use like this .parent .same */
+.same
+{
+    margin-left: 10px;
+    width: 50px;
+    background-color: blue;
+    /* align-self: center; */
+    /* so, align-item works for child to align there ow content */
+}
+.child
+{
+    height: 50px;
+    background-color: pink;
+}
+.child1
+{
+    height: 80px;
+    background-color: brown;
+}
+.child2
+{
+    height: 110px;
+    background-color: chartreuse;
+}
+.child3
+{
+    height: 140px;
+    background-color:goldenrod;
+}
+.child4
+{
+    height: 170px;
+    background-color: blueviolet;
+}
+
+/* align-content  */
+.grand_parent1
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parent1
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-content: center;
+}
+
+.child01
+{
+    height: 50px;
+    background-color: pink;
+}
+.child11
+{
+    height: 80px;
+    background-color: brown;
+}
+.child21
+{
+    height: 110px;
+    background-color: chartreuse;
+    /* align-self: flex-end; */
+}
+.child31
+{
+    height: 140px;
+    background-color:goldenrod;
+}
+.child41
+{
+    height: 170px;
+    background-color: blueviolet;
+}
+
+/* align-self */
+/* align-self,align-content doesn't work simutanously */
+/* align-self just only implent on display:flex */
+.grand_parent2
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parent2
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center; */
+}
+.child02
+{
+    height: 50px;
+    background-color: pink;
+    align-self: center;
+}
+.child12
+{
+    height: 80px;
+    background-color: brown;
+    align-self: center;
+
+}
+.child22
+{
+    height: 110px;
+    background-color: chartreuse;
+    align-self: center;
+}
+.child32
+{
+    height: 140px;
+    background-color:goldenrod;
+    align-self: center;
+}
+.child42
+{
+    height: 170px;
+    background-color: blueviolet;
+    align-self: center;
+}
+
+/* justify-self just only implent on display:grid */
+/* justify-content justify-self doesn't work simutanously */
+.grand_parent3
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.parent3
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: auto;
+    /* justify-content: center; */
+    align-content: center;
+}
+.same3
+{
+    height: 50px;
+    margin: px;
+}
+.child03
+{
+    width: 50px;
+    background-color: pink;
+    justify-self: center;
+}
+.child13
+{
+    width: 80px;
+    background-color: brown;
+    justify-self: center;
+
+}
+.child23
+{
+    width: 110px;
+    background-color: chartreuse;
+    justify-self: center;
+
+}
+.child33
+{
+    width: 140px;
+    background-color:goldenrod;
+    justify-self: center;
+
+}
+.child43
+{
+    width: 170px;
+    background-color: blueviolet;
+    justify-self: center;
+
+}
+
+/* align-items sets align-self value on all direct child as a grop */
+.grand_parent4
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parent4
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.same4
+{
+    width: 50px;
+    margin: 3px;
+}
+.child04
+{
+    height: 50px;
+    background-color: pink;
+}
+.child14
+{
+    height: 80px;
+    background-color: brown;
+
+}
+.child24
+{
+    height: 110px;
+    background-color: chartreuse;
+
+}
+.child34
+{
+    height: 140px;
+    background-color:goldenrod;
+
+}
+.child44
+{
+    height: 170px;
+    background-color: blueviolet;
+}
+
+/* justify-items,grid justify-items sets justify-self value on all direct child as a group */
+.grand_parent5
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.parent5
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: auto;
+    /* justify-content: center; */
+    align-content: center;
+    justify-items: center;
+}
+.same5
+{
+    height: 50px;
+    margin: px;
+}
+.child05
+{
+    width: 50px;
+    background-color: pink;
+}
+.child15
+{
+    width: 80px;
+    background-color: brown;
+
+}
+.child25
+{
+    width: 110px;
+    background-color: chartreuse;
+
+}
+.child35
+{
+    width: 140px;
+    background-color:goldenrod;
+
+}
+.child45
+{
+    width: 170px;
+    background-color: blueviolet;
+
+}
+
+/* flex-grow */
+.grand_parent6
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parent6
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+}
+.same6
+{
+    width: 50px;
+    margin: 3px;
+}
+.child06
+{
+    height: 50px;
+    background-color: pink;
+    flex-grow: 1;
+}
+.child16
+{
+    height: 80px;
+    background-color: brown;
+}
+.child26
+{
+    height: 110px;
+    background-color: chartreuse;
+
+}
+.child36
+{
+    height: 140px;
+    background-color:goldenrod;
+    flex-shrink: 0;
+}
+.child46
+{
+    height: 170px;
+    background-color: blueviolet;
+    flex-grow: 2;
+}
+
+/* practice */
+.grand_parent7
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.parent7
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.same7
+{
+    width: 50px;
+    margin: 3px;
+}
+.child07
+{
+    height: 50px;
+    background-color: pink;
+    align-self: center;
+}
+.child17
+{
+    height: 80px;
+    background-color: brown;
+    align-self: flex-start;
+}
+.child27
+{
+    height: 110px;
+    background-color: chartreuse;
+    align-self: flex-end;
+}
+.child37
+{
+    height: 40px;
+    background-color:goldenrod;
+    align-self: flex-end;
+}
+.child47
+{
+    height: 170px;
+    background-color: blueviolet;
+}
+
+/* practice2*/
+.grand_parent8
+{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.parent8
+{
+    height: 400px;
+    width: 400px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+}
+.same8
+{
+    height: 50px;
+    margin: px;
+}
+.child08
+{
+    width: 50px;
+    background-color: pink;
+    justify-self: center;
+}
+.child18
+{
+    width: 80px;
+    background-color: brown;
+    justify-self: flex-end;
+}
+.child28
+{
+    width: 50px;
+    background-color: chartreuse;
+    justify-self: flex-start;
+}
+.child38
+{
+    width: 40px;
+    background-color:goldenrod;
+    justify-self: center;
+}
+.child48
+{
+    width: 170px;
+    background-color: blueviolet;
+
+}

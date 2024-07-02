@@ -1,0 +1,52 @@
+*text-decoration: none | underline | overline| line-thorugh; 
+*list-style-type: none; *border: 
+solid red; 
+*margin: top-right-bottom-left | top-bottom right-left | top right-left bottom 
+*padding: top-right-bottom-left | top-bottom right-left | top right-left bottom 
+*border-radius: topleft-topright-bottom-right-bottomleft
+*box-sizing: border-box;
+*line-height: 2px
+*box-shadow: h-offset v-offset blur-radius spread-radius color;
+*word-wrap: normal|break-word
+*letter-spacing:1rem
+*word-spacing:1rem
+
+#background
+*background-image:url(web link path|data path)
+*background-repeat: norepeat
+*background-position: center
+*background-attachment: fixed
+*background-size: cover
+*object-fit:cover /*div property*/
+#mask-image
+
+content layouts
+display: inline,block,inline-block,flex,grid,table-cell(vertical-align:middle,
+text-align:center)
+parents
+{
+  flex, flex-wrap,justify-content,align-content,
+  align-items(group of childs),align-self(single child)
+}
+{
+  grid(place-items:center),
+  grid-templates-columns:repeat(autofit|autofill),minmax(width|min(width,100%),1fr)
+  ,grid-auto-row: row1,grid-template-row:row1 row2 so on,
+   grid-row:start/end,grid-column:span 2/ auto,grid-gap|gap
+}
+text layouts -> *text-align,*vertical-align
+float:left|right|center
+*position:absoulate|relative|fixed
+text-align:center
+block level tags:div,p,h1-h6 etc
+inline leve tags:img,video,audio etc
+#query -> media query,jquery,without media query use clamp 
+#animation -> keyframe
+#selector -> element,group,universal,class,id
+#pseudo elements.class::before,.class::after
+#@import url(web link| device path)
+responsive units -> width:%,height:max-height|vh|%,rem
+responsive layout -> width:auto and margin: 0 2%,
+max-width:600px|60% and margin: 0 auto,height:max-content
+
+-examples -> if parent height 100vh, then child height 50% = 50vh,same for width

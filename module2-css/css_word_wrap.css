@@ -1,0 +1,17 @@
+body
+{
+    height: 100vh;
+    width: 100%;
+}
+.word-wrap-normal
+{
+    border: solid red;
+    width: 50%;
+    word-wrap: normal;
+}
+.word-wrap-breakword
+{
+    border: dashed blue;
+    width: 50%;
+    word-wrap: break-word;   
+}

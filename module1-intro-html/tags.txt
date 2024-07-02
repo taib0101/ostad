@@ -19,5 +19,12 @@ list tag: ul or ol and li
 
 table tag: table and tr and th or td 
 
+scripting tag: script src=
+
+span tag:for typing animation use span tag
+
+white spacing tag: <pre>       <span> white space works in pre and span tag </span> </pre>
+ 
+
 last learned -> q,blockquote,hr,textarea,progress,dialog is related with js,a target=_blank|_top|_self|_parent|
                 input type="range",details and summary and p

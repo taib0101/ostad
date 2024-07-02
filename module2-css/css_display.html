@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="css_display.css" type="text/css"> -->
+         <style>
+            @import url(./css_display.css);
+         </style>
+    </head>
+    <body>
+        <div class="parent">
+
+            <div class="inline">
+                <h4>display:inline,for child</h4>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+                <p>Lorem ipsum </p>
+            </div>
+    
+            <div class="block">
+                <form action="">
+                    <h4>display: block,for child</h4>
+                    <label for="name">Name &nbsp;&nbsp;</label>
+                    <input type="text" id="name" placeholder="name" required>
+                    <input type="submit">
+                </form>
+            </div>
+    
+            <!-- without media query i used label   inline-block,in media query i used label   block for responsive  
+            -->
+            <div class="inline-block">
+                <form action="">
+                    <h4>display: inline-block,for child</h4>
+                    <label class="label">First Name</label>
+                    <input type="text" class="text" placeholder="name" required>
+                    <br><br>
+    
+                    <label class="label">Password</label>
+                    <input type="password" class="text" placeholder="password" required><br><br>
+                    <div class="inputt">
+                        <button type="submit">submit</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="inline-block1">
+                <h3>inline-block2</h3>
+                <div class="ichild1"> <p></p>child1 , inline-block</div>
+                <div class="ichild1">child2 block</div>
+            </div>
+
+            <div class="flex">
+                <h4>display: flex,for parent</h4>
+                <div class="box">
+                    <div class="child1">child1</div>
+                    <div class="child2">child2</div>
+                    <div class="child3">child3</div>
+                </div>
+            </div>
+
+            <div>
+                <h3 style="background-color: brown;">display: grid,parent</h3>
+                <div class="grid">
+                    <div class="card">1</div>
+                    <div class="card">2</div>
+                    <div class="card">3</div>
+                    <div class="card">4</div>
+                    <div class="card">5</div>
+                    <div class="card">6</div>
+                    <div class="card">7</div>
+                    <div class="card">8</div>
+                    <div class="card">9</div>
+                    <div class="card">10</div>
+                </div>
+            </div>
+
+            <div class="table-cell">
+                <h3>display:table-cell, for child text </h3>
+                <div class="tchild1">tchild1</div>
+                <div class="tchild1">tchild2</div>
+            </div>
+        </div>        
+    </body>
+</html>

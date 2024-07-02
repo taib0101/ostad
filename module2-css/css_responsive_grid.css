@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 200vh;
+    background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parent
+{
+    width: 100%;
+    height: max-content;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.parent .grid1
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 5px;
+    height: max-content;
+}
+.parent .grid1 .card1
+{
+    background: rgb(220,228,191);
+    background: radial-gradient(circle, rgba(220,228,191,1) 34%, rgba(187,201,190,1) 56%, rgba(18,64,187,1) 100%);
+    text-align: center;
+}
+
+.parent .grid2 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-gap: 5px;
+    height: max-content;
+}
+.parent .grid2 .card2
+{
+    background: rgb(227,86,219);
+    background: radial-gradient(circle, rgba(227,86,219,1) 0%, rgba(227,86,221,1) 78%, rgba(210,81,26,1) 100%);
+    text-align: center;
+}
+.tem-row
+{
+    grid-template-rows: 60px 30px;
+}
+.auto-row
+{
+    grid-auto-rows: 60px;
+}
+
+.tall
+{
+    grid-row: span 4 / auto;
+    grid-row: 2 / 4;
+
+}
+.wide
+{
+    grid-column: span 4 / auto;
+    grid-column: 1 / 4;
+}

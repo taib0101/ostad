@@ -1,0 +1,46 @@
+.parent
+{
+    /* background-color: skyblue; */
+    height: 350px;
+    width: 60%;
+    position:relative;
+}
+.child1
+{
+    position: absolute;
+    background-color: brown;
+    height: 100px;
+    width: 25%;
+    border: solid;
+}
+
+.child2
+{
+    position: absolute;
+    background-color: gold;
+    height: 100px;
+    width: 25%;
+    border: solid;
+    top: 50px;
+    left: 10%;
+}
+
+.child3
+{
+    position: absolute;
+    background-color: blue;
+    height: 100px;
+    width: 25%;
+    border: solid;
+    top: 100px;
+    left: 20%;
+    /* z-index: -1; */
+}
+
+.target
+{
+    /*apply all to know how it works*/
+    z-index: 1; 
+    z-index: 0;
+    z-index: -1;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css_adding.css">
+    </head>
+    <body>
+        <div class="inline-css">
+            <p>This is inline-css</p>
+            <p>
+                &lt;p style="border: solid red"&gt;
+            </p>
+        </div>
+
+        <div class="internal-css">
+            <p>This is internal-css</p>
+            <p>
+                &lt;style&gt;
+                <br>
+                p <br>{<br>&nbsp;&nbsp;&nbsp;border:solid;<br>}<br>
+                &lt;/style&gt;
+            </p>
+        </div>
+
+        <div class="external-css">
+            <p>This is external-css</p>
+            <p>
+                &lt;link rel="stylesheet" href="style.css" type="text/css"&gt;
+                
+            </p>
+        </div>
+
+        <div class="import">
+            <p>This is import-css</p>
+            <p>
+                &lt;style&gt;<br>
+                &nbsp;&nbsp;&nbsp;@import url(style.css)<br>
+                &lt;/style&gt;
+            </p>
+        </div>
+    </body>
+</html>

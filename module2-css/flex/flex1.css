@@ -1,0 +1,94 @@
+.bro
+{
+    width: 50px;
+    margin: 5px;
+    position: relative;
+    top: 100px;
+}
+.child1
+{
+    background: rgb(190, 91, 91);
+    height: 90px; 
+}
+.child2
+{
+    background-color: rgb(86, 86, 167);
+    height: 100px;
+}
+
+.child3
+{
+    background-color: pink;
+    height: 130px;
+}
+.child4
+{
+    background-color: tomato;
+    height: 200px;
+}
+
+/* keyword:in flex display,fles-wrap,justify-content */
+/* align-items,align-content,flex-wrap.flex-direction */
+.parent
+{
+    background-color: aqua;
+    display: flex;  
+    /*if you use flex text-align will not work*/
+    justify-content: center;
+    align-items: flex-end; 
+    /* align items for centering etc in row */
+    /* if you use align as flex-start */
+    /* you have to use min or max height or only height ,then it will easy to implement */
+    /* align-items: flex-end; min or max height ow width are dependend */
+    /* try also */
+    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    /* after making the big height it it will show at end side*/
+    /* for using this "align-content: flex-end;" */
+    align-content: flex-end;
+    /* after wrapping the window it it will show space betwwwn this content */
+    align-content: center;
+    /*align-content alignment the content in vertical axis for a row, 
+      horizontal axis for a column    */
+   /*justify-content alignment the content in horizontal axis for a row, 
+     vertical axis for a column  */
+
+}
+.child4 p
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.bro:nth-child(3)
+{
+    background: gold;
+}
+.parent p
+{
+    position: relative;
+    top: 100px;
+}
+.child3
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: flex-end;
+}
+.child4
+{
+    flex-grow: 2;
+    /* flex-basis: 0; */ /*bug*/
+    align-self: flex-start;
+}
+.child3
+{
+    /* display: none; */
+    flex-shrink: 0;
+}
+/* align-content,align-item,justify-content */
+/* text-align */
+/* align-self  */
