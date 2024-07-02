@@ -1,4 +1,4 @@
-to genrate meta tag: visit meta tag genarator
+to genrate meta tag: visit meta tag genarator -> https://metatags.io/
 
 Meta Tags
 Basic Meta Tags
