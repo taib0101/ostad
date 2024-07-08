@@ -1,0 +1,2 @@
+aos github link: https://github.com/michalsnik/aos?tab=readme-ov-file
+aos own website link: https://michalsnik.github.io/aos/

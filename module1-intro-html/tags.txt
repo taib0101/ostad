@@ -21,10 +21,12 @@ table tag: table and tr and th or td
 
 scripting tag: script src=
 
-span tag:for typing animation use span tag
+span tag:is inline conatiner to group elements style purpose
+div tag: is block container to group elements style purpose
 
-white spacing tag: <pre>       <span> white space works in pre and span tag </span> </pre>
+white spacing tag: <pre>      white space works in pre and span tag </pre>
  
+marque tag
 
 last learned -> q,blockquote,hr,textarea,progress,dialog is related with js,a target=_blank|_top|_self|_parent|
                 input type="range",details and summary and p

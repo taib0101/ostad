@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .descendant {
+            border: solid;
+        }
+
+        .descendant p {
+            background-color: red;
+        }
+
+        .child {
+            margin-top: 10px;
+            border: solid;
+        }
+
+        .child>p {
+            background-color: gold;
+        }
+
+        .general_sibling {
+            border: dashed;
+            margin-top: 10px;
+        }
+        .general_sibling~p
+        {
+            background: brown;
+        }
+
+        .adjacent_sibling
+        {
+            border: dashed ;
+        }
+        .adjacent_sibling + p
+        {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ' ' descendant tag -->
+    <div class="descendant">
+        <p>descendant 1</p>
+        <p>descendant 2</p>
+        <p>descendant 3</p>
+        <div>
+            <p>descendant 4</p>
+        </div>
+    </div>
+
+    <!-- child > tag -->
+    <div class="child">
+        <p>child 1</p>
+        <p>child 2</p>
+        <p>child 3</p>
+        <div>
+            <p>4</p>
+        </div>
+    </div>
+
+    <!-- general_sibling ~ tag -->
+    <div class="general_sibling">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <div>
+            <p>4</p>
+        </div>
+    </div>
+    <p>general_sibling</p>
+    <p>general_sibling</p>
+    <p>general_sibling</p>
+
+    <!-- adjacent_sibling + tag -->
+     <div>
+         <div class="adjacent_sibling">
+             <p>1</p>
+             <p>2</p>
+             <p>3</p>
+             <div>
+                 <p>4</p>
+             </div>
+         </div>
+         <p>adjacent_sibling</p>
+         <p>adjacent_sibling</p>
+         <p>adjacent_sibling</p>
+     </div>
+</body>
+
+</html>

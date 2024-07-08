@@ -1,0 +1,18 @@
+1.flat icon
+2.google fonts
+3.font awesome
+4.remove.bg
+5.css gradiant
+6.glass morphism
+7.lottifies animation
+8.swiper js
+9.chart.js
+10.svg generator
+11. meta tag generator
+12.bootstrap
+13.animation on scroll (link gitub : https://github.com/michalsnik/aos?tab=readme-ov-file
+			link own website : https://michalsnik.github.io/aos/
+)
+14.animista : https://animista.net/
+15.css grid generator: https://cssgrid-generator.netlify.app/
+16.box shadow generator: https://www.cssmatic.com/box-shadow

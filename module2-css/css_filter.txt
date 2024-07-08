@@ -1,0 +1,12 @@
+filter: none;
+filter: blur(5px);
+filter: brightness(200%);
+filter: contrast(200%);
+filter: drop-shadow(8px 8px 10px gray);
+filter: grayscale(100%);
+filter: hue-rotate(90deg);
+filter: invert(100%);
+filter: opacity(30%);
+filter: saturate(8);
+filter: sepia(100%);
+filter: contrast(200%) brightness(150%);

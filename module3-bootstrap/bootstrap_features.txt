@@ -1,0 +1,22 @@
+Layout		Components		Utilities
+Containers	Accordion		Background
+Row		Alerts			Borders
+Columns		Badge			Colors
+Gutters		Breadcrumb		Display
+Breakpoints	Buttons			Flex
+		Button group		Float
+Position	Card			Link
+Ratio		Carousel		Object fit
+Vertical rule	Dropdowns		Opacity
+		List group		Overflow
+Typography	Content			Modal
+Images		Navs & tabs		Navbar
+Tables		Offcanvas		Shadows
+		Progress		Sizing
+		Spinners		Spacing
+Forms		Text			Z-index
+Form control		
+Select		
+Checks & radios		
+Range		
+Input group		

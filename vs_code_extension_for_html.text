@@ -37,5 +37,8 @@ making it an essential tool for maintaining professional and error-free code.
 - this extension show the logo each files
 
 *quokka:
-- it shows the bug of javascript code in line
+- it shows the bug and output of javascript code in line
+
+*IntelliSense for CSS class names in HTML
+- it suggest bootstrap class name of layout and etc
 

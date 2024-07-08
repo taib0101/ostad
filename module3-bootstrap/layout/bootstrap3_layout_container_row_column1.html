@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>@import url("../Bootstrap/bootstrap.css");</style>
+    </head>
+    <body class="vh-100">
+        <!-- multiple rows in single container -->
+         <div class="container bg-danger mt-5">
+            <p>model1 multiple row in single container</p>
+            <div class="row bg-info">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-primary">1</div>
+                <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 bg-secondary">2</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 bg-secondary">2</div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-primary">1</div>
+            </div>
+         </div>
+
+         <!-- nested row in single column -->
+          <div class="container mt-5 bg-primary">
+              <p> model2 -> nested row</p>
+              <div class="row bg-success">
+                 <!-- 1 -->
+                 <div class="col-8 bg-primary">
+                     <!-- 2 -->
+                     <div class="row bg-light">
+                         <!-- 3 -->
+                         <div class="col-4 bg-success">
+                           <!-- 4 -->
+                             1
+                         </div>
+                         <div class="col-8 bg-danger">
+                             <!-- 5 -->
+                             2
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-4 bg-secondary">
+                     <!-- 6 -->
+                     3
+                 </div>
+             </div>
+            </div>
+
+            <div class="container mt-4 bg-success">
+                <p>model3 -> row row-cols-4,means how many column in each row,it allow also sm,md,lg,xl. &nbsp; &nbsp;you can use,col-auto,col-4</p>
+                <div class="row row-cols-4">
+                    <div class="col bg-primary">1</div>
+                    <div class="col bg-secondary">2</div>
+                    <div class="col bg-primary">3</div>
+                    <div class="col bg-secondary">4</div>
+                    <div class="col bg-primary">5</div>
+                    <div class="col bg-secondary">6</div>
+                </div>
+            </div>
+
+            <div class="container mt-5 bg-success">
+                <p>model4-> justify-content-center,you can understand gutters if you use p tag and also use gx-1to5</p>
+                <div class="row row-cols-3 justify-content-center">
+                    <div class="col-auto bg-primary">
+                        <p class="bg-danger">taib</p>
+                    </div>
+                    <div class="col-auto bg-secondary">
+                        2
+                    </div>
+                    <div class="col-6 bg-danger">
+                        3
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 bg-warning">1</div>
+                    <div class="col-6 bg-info">2</div>
+                </div>
+            </div>
+    </body>
+
+    <script src="../bootstrap.bundle.js"></script>
+</html>

@@ -48,5 +48,25 @@ inline leve tags:img,video,audio etc
 responsive units -> width:%,height:max-height|vh|%,rem
 responsive layout -> width:auto and margin: 0 2%,
 max-width:600px|60% and margin: 0 auto,height:max-content
+for more responsive use dvh(dynamic) , for small device svh 
 
 -examples -> if parent height 100vh, then child height 50% = 50vh,same for width
+
+--------------------------------------------------------------------------
+
+new declare box
+.row > where(h1,h2)
+{
+   color:red;
+}
+new learned from amit da
+visibility:hidden ,opacity: 0 ,it used for maing submenu in navbar
+hover -> visibility:visible,opacity:1,tansition: all .2s linear
+.class:hover::after
+{
+	parent position:relative
+        child  position:absolute
+        content: ""
+        transform:translateX(-50%)
+        transition
+}

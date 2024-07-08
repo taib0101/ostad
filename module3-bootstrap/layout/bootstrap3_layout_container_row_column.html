@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @import url("../Bootstrap/bootstrap.css");
+            html,body
+            {
+                height:200vh;
+            }
+            .ms-4
+            {
+                margin-left: 10px !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container bg-danger">
+            <p>model 1->container,row,col-2*5 and col-4</p>
+            <div class="row bg-info">
+                <div class="col-2 bg-primary">1</div>
+                <div class="col-2 bg-success">2</div>
+                <div class="col-2 bg-danger">3</div>
+                <div class="col-2 bg-info">4</div>
+                <div class="col-4 bg-secondary">5</div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="container-fluid bg-info">
+            <p>model 2 -> container-fluid,row,bg-success,col-2*5 col-4</p>
+            <div class="row bg-success">
+                <div class="col-2 bg-primary">1
+                </div>
+                <div class="col-2 bg-success">2</div>
+                <div class="col-2 bg-danger">3</div>
+                <div class="col-2 bg-info">4</div>
+                <div class="col-4 bg-secondary">5</div>
+                <!-- total sum of column is 12 -->
+                 <!-- if you insert more div out of 12 it will take new line -->
+            </div>
+        </div>
+       
+        <br><br>
+        <div class="container border border-light bg-secondary">
+            <!-- gx: gutter/gap horizontally(gx) and vertical (gy) using padding for parent and childs because ,it gives gap for all,we can give indiviual to child,it is not responsive solution-->
+            <div class="row gx-4 bg-info">
+                <p class="col-12  bg-black fs-6">model-3->container,row,col-4,col-8,col-4,gx-4,gy-4,p-1,fs-6,border,text-black</p>
+                <div class="col-6 border border-danger bg-warning gx-5">
+                    <p class="p-1 fs-6 text-black bg-success border border-light">1</p>
+                </div>
+                <div class="col-sm-6 border border-danger">
+                    <p class="p-1 fs-6 text-black bg-primary">2</p>
+                </div>
+
+                <div class="col-4 border border-danger">
+                    <p class="bg-danger p-1 border">3</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-success mt-3">
+            <p>model4-col,mt-1,pt.col as auto-fit</p>
+            <div class="row border border-light">
+                <div class="col bg-danger">1</div>
+                <div class="col bg-info">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col bg-danger-subtle">12</div>
+                <div class="col">13</div>
+                <div class="col">14</div>
+                <div class="col">15</div>
+                <div class="col bg-danger-subtle">16</div>
+                <div class="col">17</div>
+                <div class="col">18</div>
+                <div class="col">19</div>                    
+            </div>
+        </div>
+
+
+        <div class="container-fluid mt-5 bg-info">
+            <p>model 5-> col-auto,col-auto as auto-fill</p>
+            <div class="row border border-light">
+                <div class="col-auto bg-danger">1</div>
+                <div class="col-auto bg-info">2</div>
+                <div class="col-auto bg-success">3</div>
+                <div class="col-auto bg-success">4</div>
+                <div class="col-auto bg-success">5</div>
+                <div class="col-auto bg-success">6</div>
+                <div class="col-auto bg-success">7</div>
+                <div class="col-auto bg-success">8</div>
+                <div class="col-auto bg-success">9</div>
+                <div class="col-auto bg-success">10</div>
+                <div class="col-auto bg-success">11</div>
+                <div class="col-auto bg-success">12</div>
+                <div class="col-auto bg-success">13</div>
+                <div class="col-auto bg-success">14</div>
+                <div class="col-auto bg-success">15</div>
+                <div class="col-auto bg-success">16</div>
+                <div class="col-auto bg-success">17</div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-success mt-4">
+            <p>model6->col-2,col</p>
+            <div class="row">
+                <div class="col-2 bg-danger">1</div>
+                <div class="col bg-info">2</div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-success mt-4">
+            <p>model7->col-2,col-auto</p>
+            <div class="row">
+                <div class="col-2 bg-danger">1</div>
+                <div class="col-auto bg-info">2</div>
+            </div>
+        </div>
+
+        
+
+    </body>
+    <script src="../bootstrap.bundle.js"></script>
+</html>
