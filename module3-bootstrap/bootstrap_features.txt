@@ -20,3 +20,5 @@ Select
 Checks & radios		
 Range		
 Input group		
+
+bootstrap cheat sheet: https://bootstrap-cheatsheet.themeselection.com/

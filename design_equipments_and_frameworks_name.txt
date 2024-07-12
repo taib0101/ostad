@@ -16,3 +16,6 @@
 14.animista : https://animista.net/
 15.css grid generator: https://cssgrid-generator.netlify.app/
 16.box shadow generator: https://www.cssmatic.com/box-shadow
+17webdeasy: https://webdeasy.de/en/css-buttons-en/
+18.creative tim
+19.freepik

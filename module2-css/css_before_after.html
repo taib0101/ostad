@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .before_after {
+                height: 100px;
+                /* width: 100px; */
+                background-color: darkviolet;
+            }
+            .before_after::before {
+                display: block;
+                content: "before";
+                border: solid gold;
+                color: white;
+                height: 15px;
+                width: 55px;
+                
+            }
+            .before_after::after {
+                display: block;
+                content: "after";
+                border: solid gold;
+                color: aqua;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="before_after">
+            <p>bro,this is taib</p>
+        </div>
+    </body>
+</html>

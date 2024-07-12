@@ -1,0 +1,5 @@
+data-bs-theme="dark"|"light"
+data-bs-toggle="offcanvas"|"modal"|"collapse"|"tab"|"dropdown"
+data-bs-dismiss="offcanvas"|"modal"|"collapse"|"tab"|"dropdown"
+data-bs-target="#id"
+data-bs-spy="scroll"

@@ -1,0 +1,47 @@
+ /* Basic attribute selector */
+        <style>
+        /* Basic attribute selector */
+        [data-type] {
+            color: blue;
+        }
+
+        /* Attribute with specific value */
+        [data-type="special"] {
+            color: green;
+        }
+
+        /* Attribute containing substring */
+        [data-type*="part"] {
+            color: red;
+        }
+
+        /* Attribute value starting with substring */
+        [data-type^="start"] {
+            color: orange;
+        }
+
+        /* Attribute value ending with substring */
+        [data-type$="end"] {
+            color: purple;
+        }
+
+        /* Attribute containing word */
+        [data-type~="word"] {
+            color: pink;
+        }
+
+        /* Attribute value starting with substring (dash-separated) */
+        [data-type|="prefix"] {
+            color: cyan;
+        }
+    </style>
+------------------------------------------------------------------------
+<body>
+    <p data-type="example">This text is blue because it has a "data-type" attribute.</p>
+    <p data-type="special">This text is green because it has a "data-type" attribute with value "special".</p>
+    <p data-type="partial">This text is red because it has a "data-type" attribute containing "part".</p>
+    <p data-type="start-value">This text is orange because it has a "data-type" attribute starting with "start".</p>
+    <p data-type="end">This text is purple because it has a "data-type" attribute ending with "end".</p>
+    <p data-type="some word here">This text is pink because it has a "data-type" attribute containing the word "word".</p>
+    <p data-type="prefix-value">This text is cyan because it has a "data-type" attribute starting with "prefix-".</p>
+</body>

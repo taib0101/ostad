@@ -11,6 +11,13 @@ solid red;
 *letter-spacing:1rem
 *word-spacing:1rem
 
+#overflow
+overflow:hidden|scroll|auto
+
+#scrollbar
+scroll-behavior: smooth;
+scrollbar-width: none;
+
 #background
 *background-image:url(web link path|data path)
 *background-repeat: norepeat

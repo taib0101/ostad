@@ -1,0 +1,26 @@
+
+
+
+
+navbar-brand                                   navbar-expand-md
+                                                  |
+						  |->->navber-toggle,data-bs-toggle="collapse"|"offcanvas",data-bs-taget="#"
+						  |
+                                                  |->collapse navbar-collapse,id
+							|
+							|->navbar-nav
+							     |
+							     |->navbar-item
+								 |
+								 |->navbar-link
+						-------------------------------------
+						   collapse->offcanvas-header,id
+							|
+							|->data-bs-dismiss="offcanvas"
+							|
+						   offcanvas-body
+							|
+							|->navbar-nav
+							    |
+							    |->navbar-item
+								|->navbar-link

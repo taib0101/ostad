@@ -1,0 +1,17 @@
+.transition
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    transition: all .5s linear;
+    /* transition: all .5s ease-in;
+    transition: all .5s ease-out;
+    transition: all .5s ease-in-out; */
+    
+}
+
+.transition:hover
+{
+    background-color: brown;
+    transform: rotate(90deg);
+}
