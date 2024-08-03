@@ -19,3 +19,4 @@
 17webdeasy: https://webdeasy.de/en/css-buttons-en/
 18.creative tim
 19.freepik
+20.bootstrap icon

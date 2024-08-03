@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--        navbar part-->
+        <div class="row row2">
+            <div class="col-12 design position-fixed z-3">
+                <div class="row row2-col1-row1">
+                    <div class="col-4 row2-col1-row1-col1 d-flex align-items-center">
+                        <div class="navbar-brand">
+                            <img src="./asset/bangladesh.png" class="nav-link ms-5 tiny5-regular" style="width: 30px;">
+                        </div>
+                    </div>
+
+                    <div class="col-8 row2-col1-row1-col2">
+                        <!--                        navbar-expand -->
+                        <div class="navbar navbar-expand-md justify-content-end me-5" id="">
+                            <!--                            navbar-toggler-->
+                            <div class="navbar-toggler" style="cursor: pointer;" data-bs-toggle="offcanvas"
+                                data-bs-target="#mynav">
+                                <i class="fa-solid fa-bars" style="color: black"></i>
+                            </div>
+
+                            <div class="collapse navbar-collapse justify-content-end">
+                                <ul class="navbar-nav gap-5" id="navspy">
+                                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                                    <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    offcanvas part-->
+                    <div class="offcanvas offcanvas-end" id="mynav">
+                        <div class="offcanvas-header w-100 justify-content-end">
+                            <i class="fa-solid fa-x fs-4" style="cursor: pointer" data-bs-dismiss="offcanvas"></i>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav text-center">
+                                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center h2" style="padding-top: 10%;">Cards</div>
+        <div class="row row1 justify-content-center gap-3 align-items-center vh-100">
+            <div class="col-12 col-md-4 bg-glass rounded-top-4">
+                <img class="photo rounded-4 mt-0"
+                    src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+                    alt="not found" title="bro">
+
+                <div class="paragraph pt-5">
+                    <p class="h5 text-start short">Mustain</p>
+                    <p class="text-start text-light lh-sm word-spacing">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Laboriosam officiis velit labore, ipsa alias consequatur maiores eius quidem
+                        suscipit. Quam, nesciunt rerum. Fugiat quam cum consectetur assumenda, quis ullam provident!</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 bg-glass rounded-top-4">
+                <img class="photo rounded-4 mt-0"
+                    src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg">
+                <div class="paragraph pt-5">
+                    <p class="h5 text-start short">Murtaza</p>
+                    <p class="text-start text-light overflow-hidden lh-sm word-spacing">Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Laboriosam officiis velit labore, ipsa alias consequatur maiores
+                        eius quidem suscipit. Quam, nesciunt rerum. Fugiat quam cum consectetur assumenda, quis ullam
+                        provident!</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 bg-glass rounded-top-4">
+                <img class="photo rounded-4 mt-0"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVXKmhslVFKCeoyECJMXMry48tE20Mor5ZDw&s"
+                    alt="not found">
+                <div class="paragraph pt-5">
+                    <p class="h5 text-start short">Taib</p>
+                    <p class="text-start text-light  lh-sm word-spacing">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Laboriosam officiis velit labore, ipsa alias consequatur maiores eius quidem
+                        suscipit. Quam, nesciunt rerum. Fugiat quam cum consectetur assumenda, quis ullam provident!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center text-danger h2">Buttons</div>
+        <div class="row">
+            <div class="col-2">
+                <button class="btn btn-primary">Button1</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-secondary">Button2</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-success">Button3</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-danger">Button4</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-warning">Button5</button>
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-info">Button6</button>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-2">
+                    <button type="button" class="btn btn-light">Button7</button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-dark">Button8</button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-link border border-4">Button9</button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-outline-danger">Button10</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row d-flex justify-content-center text-success h2">Forms</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 border border-4">
+                <form class="form-group" action="Get">
+                    <label for="name" class="form-label text-success">Name</label>
+                    <input type="text" class="form-control" placeholder="Name">
+                    <br><br>
+
+                    <label class="form-label text-success">Password</label>
+                    <input type="password" class="form-control" placeholder="password">
+                    <br><br>
+
+                    <label for="textarea" class="form-label text-success">Text-area</label>
+                    <textarea name="" id="textarea" class="form-control" rows="10" placeholder="write here"></textarea>
+                    <br><br>
+
+
+                    <label for="" class="form-label text-success">File Input</label>
+                    <input type="file" class="form-control">
+                    <br><br>
+
+                    <span class="d-block text-success">Division</span>
+                    <select name="" id="" class="form-select w-auto">
+                        <option selected>Dhaka</option>
+                        <option>Shylet</option>
+                        <option>Chittagong</option>
+                    </select>
+                    <br><br>
+
+                    <div class="d-inline-block">
+                        <span class="text-success">Gender</span>
+                        <div class="form-check">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gen"><label for=""
+                                    class="form-check-label">Male</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gen"><label for=""
+                                    class="form-check-label">Female</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gen"><label for=""
+                                    class="form-check-label">Others</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-inline-block ms-5">
+                        <label class="text-success">Food Hobby</label>
+                        <div class="form-check">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="fish"><label class="text-primary"
+                                    for="">Fish</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"><label class="text-primary"
+                                    for="">Meat</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"><label class="text-primary"
+                                    for="">Others</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="h6 text-success">Progress bar</p>
+                    <div class="progress w-25 m-4">
+                        <div class="progress-bar" style="width: 50%;">
+                            50%
+                        </div>
+                        <!-- <progress value="30" max="70"></progress> -->
+                    </div>
+                    <button class="btn btn-primary d-block" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <p class="text-success h2 text-center">Vehicle List</p>
+            <ul class="list-group w-50 m-4">
+                <li class="list-group-item">Car</li>
+                <li class="list-group-item">Bike</li>
+                <li class="list-group-item">Ship</li>
+                <li class="list-group-item">Plane</li>
+                <li class="list-group-item">Helicopter</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <p class="h2 text-center text-success">Pagination</p>
+            <ul class="pagination d-flex justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="conatiner-fluid w-75">
+        <div class="row border border-4 w-100">
+            <div class="col-12">
+                <p class="h2 text-center text-success">Table</p>
+                <table class="table table-danger table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Roll</th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-dark">
+                        <tr>
+                            <td>Taib</td>
+                            <td>1</td>
+                            <td>5.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tajin</td>
+                            <td>2</td>
+                            <td>4.99</td>
+                        </tr>
+                        <tr>
+                            <td>Charmy</td>
+                            <td>3</td>
+                            <td>4.95</td>
+                        </tr>
+                        <tr>
+                            <td>Ifty</td>
+                            <td>4</td>
+                            <td>4.90</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+        </div>
+    </div>
+
+    <p class="h2 text-center text-success">Drop Down</p>
+    <div class="dropdown d-flex justify-content-center z-4">
+        <button class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
+            Button</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bangladesh</a></li>
+            <li><a class="dropdown-item" href="#">Pakistan</a></li>
+            <li><a class="dropdown-item" href="#">Afganistan</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid h-100">
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/1fe9a2c7df.js" crossorigin="anonymous"></script>
+<script src="./script/bootstrap.bundle.js"></script>
+</html>

@@ -1,0 +1,65 @@
+--------------------------------------------------html------------------------------------------------
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./nested.css" type="text/css">
+    </head>
+    <body>
+        okay
+        <p style="color: red;" aria-label="bro">bro code man</p>
+        <!-- <script> document.body.children[0].style.color = "green";</script> -->
+        <div class="container d-flex justify-content-center align-items-center border">
+            <div class="row border border-5 justify-content-center align-content-center">
+                <div class="create border align-self-center bg-success text-break"><p class="same">create</p></div>
+                <div class="read border align-self-center bg-danger text-break">read</div>
+                <div class="update border align-self-center bg-info text-break">update</div>
+                <div class="delete border align-self-center bg-warning text-break">delete</div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
+----------------------------------------------------css---------------------------------------------------
+#nested css
+
+
+html {
+    height: 200dvh;
+    width: 100%;
+}
+
+.container {
+    height: 500px;
+    .row {
+        height: 250px;
+        width: 60%;
+        background-color: #fff;
+        .create {
+            p {
+                color: red !important;
+                &.same {
+                    font-weight: bold;
+                }
+            }
+            height: 50px;
+            width: 15%;
+        }
+        .read {
+            height: 100px;
+            width: 15%;
+        }
+        .update {
+            height: 150px;
+            width: 15%;
+        }
+        .delete {
+            height: 200px;
+            width: 15%;
+        }
+    }
+}
